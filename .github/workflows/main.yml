@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build distribution
-    runs-on: github-runner-v
+    runs-on: ica2groupc
 
     steps:
     - uses: actions/checkout@v4
