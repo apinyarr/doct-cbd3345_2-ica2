@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build distribution
-    runs-on: linuxvmforica2
+    runs-on: github-runner-v
 
     steps:
     - uses: actions/checkout@v4
